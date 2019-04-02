@@ -112,7 +112,7 @@ fn main() {
         }
 
 
-        if total_error != 0.0 {
+        if scores[0] != 0.0 {
             //println!("Crossing selection...");
             let mut next_population: Population = Vec::with_capacity(POP_SIZE);
 
